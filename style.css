@@ -22,7 +22,7 @@ html, body {
   font-family: 'Luckiest Guy', cursive;
   font-size: 26px;
   color: #3aa9ff;
-  text-shadow: 0 0 15px #3aa9ff;
+  text-shadow: 0 0 6px rgba(58,169,255,0.6);
 }
 
 .nav-links a {
@@ -49,8 +49,8 @@ html, body {
   font-size: 72px;
   color: #3aa9ff;
   text-shadow:
-    0 0 20px #3aa9ff,
-    0 0 40px rgba(58,169,255,0.6);
+    0 0 8px rgba(58,169,255,0.6),
+    0 0 16px rgba(58,169,255,0.35);
 }
 
 .hero p {
