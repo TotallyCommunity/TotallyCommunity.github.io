@@ -1,36 +1,70 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0b0f1a;
-  color: white;
+* {
+  box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  background: #020617;
+  color: white;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+/* NAVBAR */
 .navbar {
+  position: relative;
+  z-index: 2;
   display: flex;
   justify-content: space-between;
   padding: 20px 40px;
-  background: rgba(0,0,0,0.7);
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(8px);
 }
 
 .logo {
-  font-size: 22px;
-  font-weight: bold;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 26px;
+  color: #3aa9ff;
+  text-shadow: 0 0 15px #3aa9ff;
 }
 
 .nav-links a {
-  margin-left: 20px;
-  color: white;
+  margin-left: 25px;
+  color: #3aa9ff;
   text-decoration: none;
+  font-weight: bold;
 }
 
+/* HERO */
 .hero {
-  height: 80vh;
+  position: relative;
+  z-index: 2;
+  height: 85vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .hero h1 {
-  font-size: 60px;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 72px;
+  color: #3aa9ff;
+  text-shadow:
+    0 0 20px #3aa9ff,
+    0 0 40px rgba(58,169,255,0.6);
+}
+
+.hero p {
+  font-size: 22px;
+  color: #b9dcff;
+  margin-top: 10px;
+}
+
+/* PARTICLE CANVAS */
+#particles {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
 }
