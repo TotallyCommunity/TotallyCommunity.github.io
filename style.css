@@ -249,3 +249,31 @@ html, body {
   line-height: 1.8;
   margin-bottom: 20px;
 }
+
+/* ===================== LEGAL PAGES (PRIVACY + TERMS) ===================== */
+
+.legal {
+  position: relative;
+  z-index: 2;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 140px 40px 80px;
+  text-align: center;
+}
+
+.legal h1 {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 56px;
+  color: #3aa9ff;
+  margin-bottom: 35px;
+  text-shadow:
+    0 0 8px rgba(58,169,255,0.55),
+    0 0 16px rgba(58,169,255,0.35);
+}
+
+.legal p {
+  color: #cfe6ff;
+  font-size: 17px;
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
