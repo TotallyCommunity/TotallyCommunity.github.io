@@ -178,3 +178,19 @@ html, body {
   transform: translateY(-6px);
   box-shadow: 0 0 25px rgba(58,169,255,0.45);
 }
+
+.scripts-description {
+  max-width: 900px;
+  margin: 0 auto 50px auto;
+  text-align: center;
+}
+
+.scripts-description h1 {
+  color: #4aa3ff;
+  margin-bottom: 15px;
+}
+
+.scripts-description p {
+  color: #cfd8ff;
+  line-height: 1.6;
+}
