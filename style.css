@@ -358,3 +358,47 @@ html, body {
   font-size: 13px;
   color: #d6e4ff;
 }
+
+/* VISION CONTENT TEXT */
+.vision-content {
+  position: relative;
+  z-index: 2;
+  max-width: 1000px;
+  margin: 0 auto 80px;
+  padding: 40px 30px;
+  text-align: center;
+}
+
+.vision-content h1 {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 58px;
+  color: #3aa9ff;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px rgba(58,169,255,0.6);
+}
+
+.vision-content h2 {
+  font-size: 34px;
+  font-weight: 800;
+  color: #4aa3ff;
+  margin: 55px 0 15px;
+  text-shadow: 0 0 6px rgba(58,169,255,0.4);
+}
+
+.vision-content p {
+  font-size: 18px;
+  color: #cfd8ff;
+  line-height: 1.7;
+}
+
+.vision-list {
+  list-style: none;
+  padding: 0;
+  margin: 25px 0;
+}
+
+.vision-list li {
+  font-size: 17px;
+  color: #b9dcff;
+  margin: 8px 0;
+}
