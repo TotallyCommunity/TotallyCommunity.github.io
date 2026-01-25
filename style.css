@@ -310,3 +310,14 @@ html, body {
   line-height: 1.7;
   margin-bottom: 10px;
 }
+
+/* FORCE HOME TEXT COLORS */
+.home-content,
+.home-content p {
+  color: #cfd8ff;
+}
+
+.home-content h1,
+.home-content h2 {
+  color: #3aa9ff;
+}
