@@ -277,3 +277,36 @@ html, body {
   line-height: 1.8;
   margin-bottom: 18px;
 }
+
+/* HOME CONTENT */
+.home-content {
+  position: relative;
+  z-index: 2;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 120px 30px 80px;
+  text-align: center;
+}
+
+.home-content h1 {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 64px;
+  color: #3aa9ff;
+  margin-bottom: 25px;
+  text-shadow: 0 0 10px rgba(58,169,255,0.6);
+}
+
+.home-content h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #4aa3ff;
+  margin: 60px 0 15px;
+  text-shadow: 0 0 6px rgba(58,169,255,0.4);
+}
+
+.home-content p {
+  font-size: 18px;
+  color: #cfd8ff;
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
