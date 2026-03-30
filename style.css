@@ -402,3 +402,33 @@ html, body {
   color: #b9dcff;
   margin: 8px 0;
 }
+
+
+/* 🔥 Ad Container Styling */
+.ad-card {
+  background: #1a1a1a;
+  border-radius: 12px;
+  padding: 15px;
+  margin: 25px 0;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+  transition: 0.3s;
+}
+
+.ad-card:hover {
+  transform: scale(1.02);
+}
+
+/* Label above ads */
+.ad-label {
+  font-size: 12px;
+  color: #aaa;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Make ads centered */
+.ad-center {
+  display: flex;
+  justify-content: center;
+}
